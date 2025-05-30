@@ -1,12 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --bg-color: white;
-  --form-color: grey;
-  --text-color:black;
-  
-}
-
 body {
   @apply bg-cover bg-center bg-no-repeat min-h-screen;
   background-image: url('../public/images/sale-3701777_1280.jpg');
@@ -20,12 +13,6 @@ body {
 }
 
 .no-spinner {
-  -moz-appearance: textfield; /* För Firefox */
+  -moz-appearance: textfield;
 }
 
-
-[data-theme="dark"] { 
-  --acme-canvas-color: oklch(0.21 0.034 264.665);}
-
-@theme inline {  
-  --color-canvas: var(--acme-canvas-color);}
